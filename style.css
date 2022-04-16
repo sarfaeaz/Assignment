@@ -1,19 +1,46 @@
-center{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+body{
+    background-color: chartreuse;
 }
-.oder{
-    font-family: Algerian;
-    background-color: aqua;
-    flex: 50%;
-    font-size:30px;
-    
+#mainbody{
+    margin-left: 40%;
+    margin-top: 20Px;
+    background: linear-gradient(blue,green,yellow );
+    width: 230px;
+    height: 300px;
+    border: solid 4px red;
+    border-radius: 10px;
 }
-.unoder{
-    flex: 50%;
-    background-color:crimson;
-    color:orange;
-    font-size:30px ;
-    font-family: Algerian;
+#screen{
+    width: 85%;
+    height: 30px;
+    margin-top: 13px;
+    margin-left: 9Px;
+    border-width: 5px;
+    border-radius: 8px;
+    border-color: yellowgreen;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.but{
+    width: 248px;
+    height: 334px;
+    margin-left: 1px;
+}
+button{
+    width: 30px;
+    height: 35px;
+    margin-top: 10px;
+    background: linear-gradient(#16b3b4,#103880);
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: aqua;
+}
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(#b7e021,#37adc2);
+
 }
