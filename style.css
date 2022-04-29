@@ -1,46 +1,80 @@
-body{
-    background-color: chartreuse;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
 }
-#mainbody{
-    margin-left: 40%;
-    margin-top: 20Px;
-    background: linear-gradient(blue,green,yellow );
-    width: 230px;
-    height: 300px;
-    border: solid 4px red;
-    border-radius: 10px;
+
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
-#screen{
-    width: 85%;
-    height: 30px;
-    margin-top: 13px;
-    margin-left: 9Px;
-    border-width: 5px;
-    border-radius: 8px;
-    border-color: yellowgreen;
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 15px;
 
 }
-.but{
-    width: 248px;
-    height: 334px;
-    margin-left: 1px;
+ul li{
+    display: inline-block;
 }
-button{
-    width: 30px;
-    height: 35px;
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+transition: 0.6s ease;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+
+
+}
+.logo img{
+    float:left;
+    width: 150px;
+    height: auto;
     margin-top: 10px;
-    background: linear-gradient(#16b3b4,#103880);
-    margin-left: 20px;
-    border-radius: 20px;
-    font-size: 17px;
-    font-weight: 100;
-    font-family: sans-serif;
-    color: aqua;
-}
-button:hover{
-    cursor: pointer;
-    background: linear-gradient(#b7e021,#37adc2);
 
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 4px;
+    transform: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
 }
