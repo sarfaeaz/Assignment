@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title> login </title>
-   <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">  
 </head>
 <body>
-   
+  <div style="text-align: center;" class="box">
+  <h3>Validation form</h3>
+  <hr>
 
-    <div class="bg-image">
-<div class="box">
-    <form action="../index.html" method="get">
-        <h1> Login </h1>
-        
-        <label class="num1">First Name</label>  
-        <br>
-        <input  type="text" name="fname"
-        id="name" placeholder="ENTER YOUR FIRST NAME" required>
-        <br>
-        <label class="num1"> EMAIL </label>
-        <br>
-        <input type="text" name="lname"
-        id="name" placeholder="ENTER YOUR EMAIL" required>
-  
-   <button class="submit"> login </button>
+    <!-- for  error -->
+    <ol id="error"></ol>
+    
+    <!-- form start -->
 
-    
-    
-    </form>
-</div>
-</div>
+   <form action="home.html" method="get">
+
+
+    <!-- for username-->
+
+    <div><label for="">Username
+        <input type="text" id="uname" placeholder="input username">
+    </label>
+    </div>
+
+      <!-- for password -->
+      <div>
+          <label for="">Password
+        <input  type="password" id="pass" placeholder="input password">
+    </label>
+      </div>
+        <!-- for Email-->
+      <div>
+          <label for="">Email
+        <input type="email" id="email" placeholder="input Email">
+    </label>
+      </div>
+      <div>
+          <input type="submit" id="submit"/>
+      </div>
+   </form>
+  </div>
 </body>
 </html>

@@ -4,7 +4,10 @@ body{
     font-family: sans-serif;
     background-image: url("dd.jpg");
     background-size: cover;
+    background-color: bisque;
+    background-image: url("sss.jpg");
 }
+
 .box{
     width: 320px;
     padding: 30px;
@@ -16,22 +19,15 @@ body{
     text-align: center;
     border-radius: 15px;
     border-color: aliceblue;
-    background-image: linear-gradient(rgba(0,0,100,0.8),rgba(0,0,100,0.8)),url("faraz.jpeg");
+  
     background-position: center;
     background-size: cover;
     box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
     
     box-sizing: border-box;
-    backface-visibility:hidden;
-
-
+    backface-visibility:hidde
 }
-.box h1{
-    color: white;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-.box input[type="text"],.box input[type="password"]{
+input[type="text"],.box input[type="password"]{
     border: 0;
     background: none;
     display: block;
@@ -45,11 +41,22 @@ body{
     border-radius: 24px;
     transition: 0.25px;
 }
-.box input[type="text"]:focus,.box input[type="password"]:focus{
-    width: 245px;
-    border-color: #ffc400ec;
+#email{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 10px;
+    width: 220px;
+    outline-color:none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+
 }
-.submit{
+#submit{
     border: 0;
     background: none;
     display: block;
@@ -62,16 +69,4 @@ body{
     border-radius: 24px;
     transition: 0.25px;
     cursor: pointer;
-}
-.submit:hover{
-    background: #ffc400ec;
-}
-.num1{
-    color: aliceblue;
-    font-family: Algerian;
-    text-align: center;
-
-}
-h1{
-    font-family:Forte ;
 }
